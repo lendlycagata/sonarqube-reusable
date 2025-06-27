@@ -5,6 +5,10 @@ on:
     secrets:
       SONAR_TOKEN:
         required: true
+      SONAR_PROJECT_KEY:  
+        required: true
+      SONAR_ORGANIZATION:
+        required: true
 
 jobs:
   sonarqube:
